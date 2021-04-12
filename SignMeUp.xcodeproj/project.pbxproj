@@ -12,12 +12,22 @@
 		950640A82624924B00A31D09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 950640A62624924B00A31D09 /* LaunchScreen.storyboard */; };
 		950640BF2624935500A31D09 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950640BE2624935500A31D09 /* AppCoordinator.swift */; };
 		950640C32624938600A31D09 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950640C22624938600A31D09 /* User.swift */; };
-		950640C8262493C200A31D09 /* CreateProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950640C7262493C200A31D09 /* CreateProfileViewController.swift */; };
 		950640CB262493CD00A31D09 /* ConfirmProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950640CA262493CD00A31D09 /* ConfirmProfileViewController.swift */; };
-		950640CE2624942F00A31D09 /* CreateProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 950640CD2624942F00A31D09 /* CreateProfileViewController.xib */; };
 		950640D12624943700A31D09 /* ConfirmProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 950640D02624943700A31D09 /* ConfirmProfileViewController.xib */; };
 		950640D52624947100A31D09 /* CreateProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950640D42624947100A31D09 /* CreateProfileViewModel.swift */; };
 		950640D82624947900A31D09 /* ConfirmProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950640D72624947900A31D09 /* ConfirmProfileViewModel.swift */; };
+		950640DD26249A1900A31D09 /* CreateProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950640DB26249A1900A31D09 /* CreateProfileViewController.swift */; };
+		950640DE26249A1900A31D09 /* CreateProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 950640DC26249A1900A31D09 /* CreateProfileViewController.xib */; };
+		950640E226249BEC00A31D09 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950640E126249BEC00A31D09 /* Error.swift */; };
+		950640E526249C0D00A31D09 /* UIApplication+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950640E426249C0D00A31D09 /* UIApplication+Extensions.swift */; };
+		950640ED26249CA800A31D09 /* TextEntryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 950640E926249CA800A31D09 /* TextEntryCell.xib */; };
+		950640EE26249CA800A31D09 /* TextEntryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950640EA26249CA800A31D09 /* TextEntryCell.swift */; };
+		950640EF26249CA800A31D09 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 950640EB26249CA800A31D09 /* HeaderView.xib */; };
+		950640F026249CA800A31D09 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950640EC26249CA800A31D09 /* HeaderView.swift */; };
+		950640F426249CD600A31D09 /* CustomButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 950640F226249CD600A31D09 /* CustomButton.xib */; };
+		950640F526249CD600A31D09 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950640F326249CD600A31D09 /* CustomButton.swift */; };
+		950640F826249CEB00A31D09 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950640F726249CEB00A31D09 /* UIView+Extensions.swift */; };
+		950640FB26249D0700A31D09 /* UITextField+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950640FA26249D0700A31D09 /* UITextField+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,12 +38,22 @@
 		950640A92624924B00A31D09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		950640BE2624935500A31D09 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		950640C22624938600A31D09 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		950640C7262493C200A31D09 /* CreateProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProfileViewController.swift; sourceTree = "<group>"; };
 		950640CA262493CD00A31D09 /* ConfirmProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmProfileViewController.swift; sourceTree = "<group>"; };
-		950640CD2624942F00A31D09 /* CreateProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreateProfileViewController.xib; sourceTree = "<group>"; };
 		950640D02624943700A31D09 /* ConfirmProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConfirmProfileViewController.xib; sourceTree = "<group>"; };
 		950640D42624947100A31D09 /* CreateProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProfileViewModel.swift; sourceTree = "<group>"; };
 		950640D72624947900A31D09 /* ConfirmProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmProfileViewModel.swift; sourceTree = "<group>"; };
+		950640DB26249A1900A31D09 /* CreateProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateProfileViewController.swift; sourceTree = "<group>"; };
+		950640DC26249A1900A31D09 /* CreateProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateProfileViewController.xib; sourceTree = "<group>"; };
+		950640E126249BEC00A31D09 /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		950640E426249C0D00A31D09 /* UIApplication+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extensions.swift"; sourceTree = "<group>"; };
+		950640E926249CA800A31D09 /* TextEntryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextEntryCell.xib; sourceTree = "<group>"; };
+		950640EA26249CA800A31D09 /* TextEntryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextEntryCell.swift; sourceTree = "<group>"; };
+		950640EB26249CA800A31D09 /* HeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
+		950640EC26249CA800A31D09 /* HeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		950640F226249CD600A31D09 /* CustomButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomButton.xib; sourceTree = "<group>"; };
+		950640F326249CD600A31D09 /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		950640F726249CEB00A31D09 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		950640FA26249D0700A31D09 /* UITextField+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +98,9 @@
 		950640B4262492EF00A31D09 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				950640E426249C0D00A31D09 /* UIApplication+Extensions.swift */,
+				950640F726249CEB00A31D09 /* UIView+Extensions.swift */,
+				950640FA26249D0700A31D09 /* UITextField+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -85,8 +108,9 @@
 		950640B5262492F300A31D09 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				950640C12624937D00A31D09 /* SignUp */,
 				950640BD2624934C00A31D09 /* Coordinator */,
+				950640E026249BE100A31D09 /* Error */,
+				950640C12624937D00A31D09 /* SignUp */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -153,10 +177,11 @@
 		950640C6262493B000A31D09 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				950640E726249C5D00A31D09 /* TableView */,
 				950640CA262493CD00A31D09 /* ConfirmProfileViewController.swift */,
 				950640D02624943700A31D09 /* ConfirmProfileViewController.xib */,
-				950640C7262493C200A31D09 /* CreateProfileViewController.swift */,
-				950640CD2624942F00A31D09 /* CreateProfileViewController.xib */,
+				950640DB26249A1900A31D09 /* CreateProfileViewController.swift */,
+				950640DC26249A1900A31D09 /* CreateProfileViewController.xib */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -168,6 +193,27 @@
 				950640D72624947900A31D09 /* ConfirmProfileViewModel.swift */,
 			);
 			path = SignUp;
+			sourceTree = "<group>";
+		};
+		950640E026249BE100A31D09 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				950640E126249BEC00A31D09 /* Error.swift */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		950640E726249C5D00A31D09 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				950640F326249CD600A31D09 /* CustomButton.swift */,
+				950640F226249CD600A31D09 /* CustomButton.xib */,
+				950640EC26249CA800A31D09 /* HeaderView.swift */,
+				950640EB26249CA800A31D09 /* HeaderView.xib */,
+				950640EA26249CA800A31D09 /* TextEntryCell.swift */,
+				950640E926249CA800A31D09 /* TextEntryCell.xib */,
+			);
+			path = TableView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,8 +273,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				950640CE2624942F00A31D09 /* CreateProfileViewController.xib in Resources */,
+				950640DE26249A1900A31D09 /* CreateProfileViewController.xib in Resources */,
+				950640ED26249CA800A31D09 /* TextEntryCell.xib in Resources */,
 				950640A82624924B00A31D09 /* LaunchScreen.storyboard in Resources */,
+				950640EF26249CA800A31D09 /* HeaderView.xib in Resources */,
+				950640F426249CD600A31D09 /* CustomButton.xib in Resources */,
 				950640D12624943700A31D09 /* ConfirmProfileViewController.xib in Resources */,
 				950640A52624924B00A31D09 /* Assets.xcassets in Resources */,
 			);
@@ -241,13 +290,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				950640C8262493C200A31D09 /* CreateProfileViewController.swift in Sources */,
+				950640E226249BEC00A31D09 /* Error.swift in Sources */,
+				950640EE26249CA800A31D09 /* TextEntryCell.swift in Sources */,
 				950640BF2624935500A31D09 /* AppCoordinator.swift in Sources */,
+				950640E526249C0D00A31D09 /* UIApplication+Extensions.swift in Sources */,
 				950640D52624947100A31D09 /* CreateProfileViewModel.swift in Sources */,
+				950640F826249CEB00A31D09 /* UIView+Extensions.swift in Sources */,
 				950640D82624947900A31D09 /* ConfirmProfileViewModel.swift in Sources */,
+				950640FB26249D0700A31D09 /* UITextField+Extensions.swift in Sources */,
 				9506409C2624924B00A31D09 /* AppDelegate.swift in Sources */,
+				950640F026249CA800A31D09 /* HeaderView.swift in Sources */,
+				950640F526249CD600A31D09 /* CustomButton.swift in Sources */,
 				950640C32624938600A31D09 /* User.swift in Sources */,
 				950640CB262493CD00A31D09 /* ConfirmProfileViewController.swift in Sources */,
+				950640DD26249A1900A31D09 /* CreateProfileViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

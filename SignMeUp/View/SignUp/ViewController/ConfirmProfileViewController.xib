@@ -8,13 +8,29 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ConfirmProfileViewController" customModule="SignMeUp" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ConfirmProfileViewController" customModule="SignMeUp" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="iN0-l3-epB" id="Gar-Fa-Uat"/>
+            </connections>
+        </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB">
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="RI7-23-B3s">
+                    <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </tableView>
+            </subviews>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="RI7-23-B3s" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="5Ft-kp-VjL"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="RI7-23-B3s" secondAttribute="bottom" id="LmT-9d-0LL"/>
+                <constraint firstItem="RI7-23-B3s" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="aNo-pC-Ide"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="RI7-23-B3s" secondAttribute="trailing" id="nSl-iR-3sp"/>
+            </constraints>
             <point key="canvasLocation" x="-214" y="104"/>
         </view>
     </objects>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="TextEntryCell" rowHeight="84" id="Lna-d0-Raw" customClass="TextEntryCell" customModule="SignMeUp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="84"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Lna-d0-Raw" id="3wN-Sc-BYs">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="84"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gcw-oK-PPe">
+                        <rect key="frame" x="20" y="8" width="374" height="68"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Test" textAlignment="natural" minimumFontSize="16" translatesAutoresizingMaskIntoConstraints="NO" id="qfy-D3-CP3">
+                                <rect key="frame" x="24" y="4" width="326" height="60"/>
+                                <color key="textColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" smartQuotesType="yes"/>
+                                <connections>
+                                    <action selector="textFieldEditingChanged:" destination="Lna-d0-Raw" eventType="editingChanged" id="X7r-ai-dPY"/>
+                                </connections>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="qfy-D3-CP3" secondAttribute="trailing" constant="24" id="6f9-C4-3mJ"/>
+                            <constraint firstItem="qfy-D3-CP3" firstAttribute="leading" secondItem="Gcw-oK-PPe" secondAttribute="leading" constant="24" id="DFx-sF-vJz"/>
+                            <constraint firstAttribute="bottom" secondItem="qfy-D3-CP3" secondAttribute="bottom" constant="4" id="i8J-gI-k4S"/>
+                            <constraint firstItem="qfy-D3-CP3" firstAttribute="top" secondItem="Gcw-oK-PPe" secondAttribute="top" constant="4" id="m1i-ty-H0O"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="Gcw-oK-PPe" secondAttribute="trailing" constant="20" id="0CY-2q-dD4"/>
+                    <constraint firstAttribute="bottom" secondItem="Gcw-oK-PPe" secondAttribute="bottom" constant="8" id="EzF-Ar-YbG"/>
+                    <constraint firstItem="Gcw-oK-PPe" firstAttribute="leading" secondItem="3wN-Sc-BYs" secondAttribute="leading" constant="20" id="QQi-aA-5qO"/>
+                    <constraint firstItem="Gcw-oK-PPe" firstAttribute="top" secondItem="3wN-Sc-BYs" secondAttribute="top" constant="8" id="TIi-eO-tkq"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="textField" destination="qfy-D3-CP3" id="pDl-JG-1hw"/>
+                <outlet property="view" destination="Gcw-oK-PPe" id="nkI-X6-glU"/>
+            </connections>
+            <point key="canvasLocation" x="210.1449275362319" y="91.741071428571431"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

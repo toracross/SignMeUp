@@ -8,7 +8,7 @@
 import UIKit
 
 class AppCoordinator {
-    
+
     // MARK: - Private Variables
 
     private var window: UIWindow
@@ -22,11 +22,11 @@ class AppCoordinator {
         window.rootViewController = controller
         window.makeKeyAndVisible()
     }
-    
+
     convenience init() {
         self.init(window: UIWindow(), controller: UIViewController())
     }
-    
+
     // MARK: - Public Methods
 
     func start() {
@@ -41,9 +41,17 @@ class AppCoordinator {
 // MARK: - Coordinator
 
 extension AppCoordinator: CreateProfileCoordinator {
-    
+    func didPressSubmitButton(user: User) {
+        let controller = ConfirmProfileViewController(coordinator: self, user: user)
+        controller.modalPresentationStyle = .overFullScreen
+
+        self.controller.present(controller, animated: true)
+        self.controller = controller
+    }
 }
 
 extension AppCoordinator: ConfirmProfileCoordinator {
-    
+    func didPressSignInButton() {
+        Error.presentError(error: .special)
+    }
 }

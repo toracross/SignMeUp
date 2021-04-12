@@ -8,13 +8,13 @@
 import UIKit
 
 protocol ConfirmProfileCoordinator: AnyObject {
-    
+    func didPressSignInButton()
 }
 
 class ConfirmProfileViewController: UIViewController {
-    
+
     // MARK: - Initializer
-    
+
     init(coordinator: ConfirmProfileCoordinator, user: User) {
         super.init(nibName: "ConfirmProfileViewController", bundle: nil)
 
@@ -23,5 +23,5 @@ class ConfirmProfileViewController: UIViewController {
     required init?(coder aDecoder: NSCoder) {
        super.init(coder: aDecoder)
     }
-    
+
 }
