@@ -29,12 +29,13 @@ class AppCoordinator {
 
     // MARK: - Public Methods
 
-    func start() {
+    func start() -> Bool {
         let controller = CreateProfileViewController(coordinator: self)
         controller.modalPresentationStyle = .overFullScreen
 
         self.controller.present(controller, animated: false)
         self.controller = controller
+        return true
     }
 }
 

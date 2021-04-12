@@ -28,6 +28,9 @@
 		950640F526249CD600A31D09 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950640F326249CD600A31D09 /* CustomButton.swift */; };
 		950640F826249CEB00A31D09 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950640F726249CEB00A31D09 /* UIView+Extensions.swift */; };
 		950640FB26249D0700A31D09 /* UITextField+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950640FA26249D0700A31D09 /* UITextField+Extensions.swift */; };
+		953468672624ACAF00F012C4 /* UserDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 953468652624ACAF00F012C4 /* UserDetailCell.xib */; };
+		953468682624ACAF00F012C4 /* UserDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953468662624ACAF00F012C4 /* UserDetailCell.swift */; };
+		9534686B2624ACDA00F012C4 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9534686A2624ACDA00F012C4 /* String+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +57,9 @@
 		950640F326249CD600A31D09 /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		950640F726249CEB00A31D09 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		950640FA26249D0700A31D09 /* UITextField+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extensions.swift"; sourceTree = "<group>"; };
+		953468652624ACAF00F012C4 /* UserDetailCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserDetailCell.xib; sourceTree = "<group>"; };
+		953468662624ACAF00F012C4 /* UserDetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetailCell.swift; sourceTree = "<group>"; };
+		9534686A2624ACDA00F012C4 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,9 +104,10 @@
 		950640B4262492EF00A31D09 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				9534686A2624ACDA00F012C4 /* String+Extensions.swift */,
 				950640E426249C0D00A31D09 /* UIApplication+Extensions.swift */,
-				950640F726249CEB00A31D09 /* UIView+Extensions.swift */,
 				950640FA26249D0700A31D09 /* UITextField+Extensions.swift */,
+				950640F726249CEB00A31D09 /* UIView+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -142,10 +149,10 @@
 		950640B92624931D00A31D09 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				950640A62624924B00A31D09 /* LaunchScreen.storyboard */,
-				950640A92624924B00A31D09 /* Info.plist */,
-				950640A42624924B00A31D09 /* Assets.xcassets */,
 				9506409B2624924B00A31D09 /* AppDelegate.swift */,
+				950640A42624924B00A31D09 /* Assets.xcassets */,
+				950640A92624924B00A31D09 /* Info.plist */,
+				950640A62624924B00A31D09 /* LaunchScreen.storyboard */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -177,11 +184,11 @@
 		950640C6262493B000A31D09 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				950640E726249C5D00A31D09 /* TableView */,
 				950640CA262493CD00A31D09 /* ConfirmProfileViewController.swift */,
 				950640D02624943700A31D09 /* ConfirmProfileViewController.xib */,
 				950640DB26249A1900A31D09 /* CreateProfileViewController.swift */,
 				950640DC26249A1900A31D09 /* CreateProfileViewController.xib */,
+				950640E726249C5D00A31D09 /* TableView */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -189,8 +196,8 @@
 		950640D32624946500A31D09 /* SignUp */ = {
 			isa = PBXGroup;
 			children = (
-				950640D42624947100A31D09 /* CreateProfileViewModel.swift */,
 				950640D72624947900A31D09 /* ConfirmProfileViewModel.swift */,
+				950640D42624947100A31D09 /* CreateProfileViewModel.swift */,
 			);
 			path = SignUp;
 			sourceTree = "<group>";
@@ -212,6 +219,8 @@
 				950640EB26249CA800A31D09 /* HeaderView.xib */,
 				950640EA26249CA800A31D09 /* TextEntryCell.swift */,
 				950640E926249CA800A31D09 /* TextEntryCell.xib */,
+				953468662624ACAF00F012C4 /* UserDetailCell.swift */,
+				953468652624ACAF00F012C4 /* UserDetailCell.xib */,
 			);
 			path = TableView;
 			sourceTree = "<group>";
@@ -278,6 +287,7 @@
 				950640A82624924B00A31D09 /* LaunchScreen.storyboard in Resources */,
 				950640EF26249CA800A31D09 /* HeaderView.xib in Resources */,
 				950640F426249CD600A31D09 /* CustomButton.xib in Resources */,
+				953468672624ACAF00F012C4 /* UserDetailCell.xib in Resources */,
 				950640D12624943700A31D09 /* ConfirmProfileViewController.xib in Resources */,
 				950640A52624924B00A31D09 /* Assets.xcassets in Resources */,
 			);
@@ -294,8 +304,10 @@
 				950640EE26249CA800A31D09 /* TextEntryCell.swift in Sources */,
 				950640BF2624935500A31D09 /* AppCoordinator.swift in Sources */,
 				950640E526249C0D00A31D09 /* UIApplication+Extensions.swift in Sources */,
+				9534686B2624ACDA00F012C4 /* String+Extensions.swift in Sources */,
 				950640D52624947100A31D09 /* CreateProfileViewModel.swift in Sources */,
 				950640F826249CEB00A31D09 /* UIView+Extensions.swift in Sources */,
+				953468682624ACAF00F012C4 /* UserDetailCell.swift in Sources */,
 				950640D82624947900A31D09 /* ConfirmProfileViewModel.swift in Sources */,
 				950640FB26249D0700A31D09 /* UITextField+Extensions.swift in Sources */,
 				9506409C2624924B00A31D09 /* AppDelegate.swift in Sources */,
@@ -325,6 +337,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -386,6 +399,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

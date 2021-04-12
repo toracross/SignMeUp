@@ -10,6 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ConfirmProfileViewController" customModule="SignMeUp" customModuleProvider="target">
             <connections>
+                <outlet property="tableView" destination="RI7-23-B3s" id="nPV-f3-hBh"/>
                 <outlet property="view" destination="iN0-l3-epB" id="Gar-Fa-Uat"/>
             </connections>
         </placeholder>

@@ -24,8 +24,8 @@ class CreateProfileViewModel: CreateProfileDelegate {
     
     public var cellConfiguration: [TextEntryCell.TextEntryType] = [.firstName, .emailAddress, .password, .website]
     public var customButton: CustomButton { .fromNib() }
-    public var headerText: String { return "Profile Creation" }
-    public var helpText: String { return "Use the form below to submit your portfolio. An email and password are required." }
+    public var headerText: String { "Profile Creation" }
+    public var helpText: String { "Use the form below to submit your portfolio. An email and password are required." }
     public var user: User?
     
     // MARK: - Private Variables

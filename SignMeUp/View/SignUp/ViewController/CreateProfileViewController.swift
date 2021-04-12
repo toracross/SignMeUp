@@ -42,14 +42,14 @@ class CreateProfileViewController: UIViewController {
     }
 
     // MARK: - Private Methods
-    
+
     private func configureView() {
         let cell = UINib(nibName: "TextEntryCell", bundle: nil)
         tableView.register(cell, forCellReuseIdentifier: "TextEntryCell")
-        
+
         let header = UINib(nibName: "HeaderView", bundle: nil)
         tableView.register(header, forHeaderFooterViewReuseIdentifier: "HeaderView")
-        
+
         tableView.delegate = self
         tableView.dataSource = self
     }
@@ -66,11 +66,11 @@ extension CreateProfileViewController: UITableViewDelegate, UITableViewDataSourc
     }
     
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-        return 120
+        120
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return viewModel?.cellConfiguration.count ?? 0
+        viewModel?.cellConfiguration.count ?? 0
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -80,7 +80,7 @@ extension CreateProfileViewController: UITableViewDelegate, UITableViewDataSourc
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 64.0
+        64.0
     }
     
 }
